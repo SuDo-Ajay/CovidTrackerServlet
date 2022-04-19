@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Register Page</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+    	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href="./styles.css"/>
+    </head>
+	<body>
+		<div class = "Header">
+			<p>Covid Case Tracker - India</p>
+			<div class="Header-Right">
+				<a class="Active" href="./index.html">Tracker</a>
+			</div>
+		</div>
+        <div class="Logo-Circle">
+			<div class="Logo">
+				<img width=60 src="test-tube.png" usemap="#image-map" />
+			</div>
+		</div>
+        <div class="Login-Main">
+            <h2>Registration<br></h2>
+			<h3>Enter your Details</h3>
+			<h3>Registration Failed</h3>
+        </div>
+        <section class="Registration-Glass">
+			<div class="registration-section">
+				<form name="Registration" action=RegisterServlet method="POST">
+					<label for="username">Username</label>
+					<input type="text" name="usernamer" value="" required/>
+					<label for="email">Email</label>
+					<input type="email" name="emailr" value="" required/>
+					<label for="password">Password</label>
+					<input type="password" name="passwordr" value="" required/>
+					<label for="trackedstate">State to be Tracked</label>
+					<input type="text" name="trackedstater" value="" />
+					<label for="trackedstate">Infected with Corona ? (Yes or NO)</label>
+					<input type="text" name="statusr" value="" />
+					<input type="submit" value="Register" name="register"  />
+				</form>
+			</div>
+			<div class="login-redirect">
+				<h3>Already have an account ?</h3>
+				<a href="./login.html">
+					<h3>Login</h3>
+				</a>
+			</div>
+        </section>
+		<div class="footer-space"></div>
+    </body>
+</html>
+    

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Login Page</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+    	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href="./styles.css"/>
+    </head>
+	<body>
+		<div class = "Header">
+			<p>Covid Case Tracker - India</p>
+			<div class="Header-Right">
+				<a class="Active" href="./index.html">Tracker</a>
+			</div>
+		</div>
+        <div class="Logo-Circle">
+			<div class="Logo">
+				<img width=60 src="test-tube.png" usemap="#image-map" />
+			</div>
+		</div>
+        <div class="Login-Main">
+            <h2>Login<br></h2>
+			<h3>Enter your Details</h3>
+        </div>
+        <div class="login-adjust">
+            <section class="Login-Glass">
+                <div class="login-section">
+                    <form name="Login" action=LoginServlet method="POST">
+                        <label for="username">Username</label>
+                        <input type="text" name="usernamel" value="" />
+                        <label for="password">Password</label>
+                        <input type="password" name="passwordl" value="" />
+                        <input type="submit" value="Login" name="statesearch" />
+                    </form>
+                <div class="registration-redirect">
+                    <h3>Dont have an account ?</h3>
+                    <a href="register.html">
+                        <h3>Register</h3>
+                    </a>
+                </div>
+                </div>
+
+            </section>    
+        </div>
+    
+    </body>
+</html>
+    
